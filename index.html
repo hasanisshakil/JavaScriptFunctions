@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Functions - Nahid Hasan</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+</head>
+<body class="bg-light">
+    <div class="container mt-5">
+        <h1 class="text-center mb-4 text-white bg-dark">JavaScript Functions</h1>
+
+        <div class="function-container mb-4">
+            <h2>Calculate Sum</h2>
+            <div class="form-group">
+                <input type="number" class="form-control" id="sumA" placeholder="Enter first number">
+            </div>
+            <div class="form-group">
+                <input type="number" class="form-control" id="sumB" placeholder="Enter second number">
+            </div>
+            <button class="btn btn-primary" onclick="showSum()">Calculate</button>
+            <p id="sumOutput" class="mt-2"></p>
+        </div>
+
+        <div class="function-container mb-4">
+            <h2>Check a Number is Even or Odd</h2>
+            <div class="form-group">
+                <input type="number" class="form-control" id="evenoddNumber" placeholder="Enter a number">
+            </div>
+            <button class="btn btn-primary" onclick="showIsEven()">Check</button>
+            <p id="isEvenOutput" class="mt-2"></p>
+        </div>
+
+        <div class="function-container mb-4">
+            <h2>Find Maximum Number</h2>
+            <div class="form-group">
+                <input type="text" class="form-control" id="maxNumbers" placeholder="Enter numbers separated by commas(,)">
+            </div>
+            <button class="btn btn-primary" onclick="showMax()">Find Max</button>
+            <p id="maxOutput" class="mt-2"></p>
+        </div>
+
+        <div class="function-container mb-4">
+            <h2>Reverse String</h2>
+            <div class="form-group">
+                <input type="text" class="form-control" id="reverseString" placeholder="Enter a string">
+            </div>
+            <button class="btn btn-primary" onclick="showReversedString()">Reverse</button>
+            <p id="reversedOutput" class="mt-2"></p>
+        </div>
+
+        <div class="function-container mb-4">
+            <h2>Filter Odd Numbers</h2>
+            <div class="form-group">
+                <input type="text" class="form-control" id="oddNumbersInput" placeholder="Enter numbers separated by commas(,)">
+            </div>
+            <button class="btn btn-primary" onclick="showOddNumbers()">Filter</button>
+            <p id="oddNumbersOutput" class="mt-2"></p>
+        </div>
+
+        <div class="function-container mb-4">
+            <h2>Sum the Array of numbers</h2>
+            <div class="form-group">
+                <input type="text" class="form-control" id="arraySumInput" placeholder="Enter numbers separated by commas(,)">
+            </div>
+            <button class="btn btn-primary" onclick="showArraySum()">Sum</button>
+            <p id="arraySumOutput" class="mt-2"></p>
+        </div>
+
+        <div class="function-container mb-4">
+            <h2>Sort the Array of numbers</h2>
+            <div class="form-group">
+                <input type="text" class="form-control" id="sortArrayInput" placeholder="Enter numbers separated by commas(,)">
+            </div>
+            <button class="btn btn-primary" onclick="showSortedArray()">Sort</button>
+            <p id="sortedArrayOutput" class="mt-2"></p>
+        </div>
+
+        <div class="function-container mb-4">
+            <h2>Capitalize First Letter</h2>
+            <div class="form-group">
+                <input type="text" class="form-control" id="capitalizeInput" placeholder="Enter a string">
+            </div>
+            <button class="btn btn-primary" onclick="showCapitalized()">Capitalize</button>
+            <p id="capitalizedOutput" class="mt-2"></p>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+    <script src="./js/bootstrap.bundle.js"></script>
+</body>
+</html>
